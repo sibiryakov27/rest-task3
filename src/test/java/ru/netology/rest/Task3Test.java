@@ -19,7 +19,7 @@ public class Task3Test {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some data spoiled"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
